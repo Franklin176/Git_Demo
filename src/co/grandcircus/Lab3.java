@@ -21,6 +21,7 @@ public class Lab3 {
 
 			int answer = input % 2;
 
+			
 			if (answer == 0 && input <= 25) {
 				System.out.println(name + " The number " + input + " is Even and less than 25");
 			} else if (answer == 0 && input > 25) {
